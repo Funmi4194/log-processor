@@ -39,23 +39,31 @@ Go 1.24.1
 
 ### Clone the repository:
 git clone github.com/funmi4194/log-processor
+
 cd test_folder
+
 Run the application:
+
 go run main.go
 
 
 ### 🧪 Running Tests
 Run the integration test with:
+
 go test -v
+
 Ensured your log.txt file contains testable keyword occurrences.
-📄 Example Log Entry
+
+#### 📄 Example Log Entry
 
 2023-10-28 12:00:01 - INFO - User logged in
 
 2023-10-28 12:00:03 - ERROR - Database connection failed
 
 2023-10-28 12:00:04 - DEBUG - Cache hit for request
-✅ Expected Output
+
+
+#### ✅ Expected Output
 
 INFO: 1
 
