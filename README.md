@@ -51,12 +51,16 @@ Ensured your log.txt file contains testable keyword occurrences.
 📄 Example Log Entry
 
 2023-10-28 12:00:01 - INFO - User logged in
+
 2023-10-28 12:00:03 - ERROR - Database connection failed
+
 2023-10-28 12:00:04 - DEBUG - Cache hit for request
 ✅ Expected Output
 
 INFO: 1
+
 ERROR: 1
+
 DEBUG: 1
 
 
