@@ -13,7 +13,7 @@
 🧪 Includes integration test for full flow validation.
 🏗️ Project Structure
 
-`
+.
 ├── test_folder
    ├── main.go             # Main logic to process logs
    ├── processor
@@ -25,7 +25,7 @@
    │   └── log_test.go     # Integration test   
    ├── go.mod
    └── README.md
-`
+
 
 ## 📥 Requirements
 
