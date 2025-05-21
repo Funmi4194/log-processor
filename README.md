@@ -13,6 +13,7 @@
 🧪 Includes integration test for full flow validation.
 🏗️ Project Structure
 
+`
 ├── test_folder
    ├── main.go             # Main logic to process logs
    ├── processor
@@ -24,8 +25,7 @@
    │   └── log_test.go     # Integration test   
    ├── go.mod
    └── README.md
-
-
+`
 
 ## 📥 Requirements
 
@@ -60,6 +60,7 @@ DEBUG: 1
 Keywords are case-insensitive.
 The number of workers and batch size can be configured for optimal performance.
 Buffered channels are used to prevent blocking and improve throughput.
-👨‍💻 Author
 
+
+👨‍💻 Author
 [Olayiwola Oluwafunmilayo]
