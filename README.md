@@ -19,7 +19,18 @@
 
 🏗️ Project Structure
 
-<pre> ``` . ├── main.go # Main logic to process logs ├── processor/ │ ├── file.go # Reads the log file │ ├── file_test.go # Unit test for file.go │ ├── process_file.go # Concurrent log processing logic │ ├── process_file_test.go # Unit test for process_file.go │ ├── log.txt # Sample log file (99 lines) │ └── log_test.go # Integration test ├── go.mod └── README.md ``` </pre>
+<pre> ``` . 
+   ├── main.go             # Main logic to process logs
+   ├── processor
+   │   └── log.txt         # Sample log file (99 lines)
+   │   └── file_test.go    # unit test   
+   │   └── file.go         # reading file 
+   │   └── process_file.go # process file for concurrent logging     
+   │   └── process_file_test.go #  unit test   
+   │   └── log_test.go     # Integration test   
+   ├── go.mod
+   └── README.md
+</pre>
 
 ## 📥 Requirements
 
